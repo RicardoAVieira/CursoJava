@@ -1,0 +1,16 @@
+package fundamentos;
+
+public class Console29 {
+	public static void main(String[] args) {
+		System.out.print("Bom");
+		System.out.print(" dia !\n");
+
+		System.out.println("Bom dia!");
+
+		System.out.printf("Megasena: %d %d %d %d %d %d", 1, 2, 3, 4, 5, 6);
+
+		System.out.printf("\nSalário: %.1f", 1234.5678);
+
+		System.out.printf("\nNome: %s", "João");
+	}
+}

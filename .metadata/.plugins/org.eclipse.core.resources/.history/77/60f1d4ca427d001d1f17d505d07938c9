@@ -1,0 +1,51 @@
+package fundamentos;
+
+public class Primitivos25 {
+	
+	public static void main(String[] args) {
+//		System.out.println("São tipos primitivos os seguintes:");
+//		System.out.println("Byte -128 atá 127.");
+//		System.out.println("Short +-  32.767.");
+//		System.out.println("Float  -3.40292347E+38 a +3.40292347E+38");
+//		System.out.println("Double  	-1.79769313486231570E+308 a +1.79769313486231570E+308");
+//		System.out.println("Long para numeros grandes inteiros.");
+//		
+//		System.out.println("Char Utiliza sempre Aspas simples ' ' ");
+//		System.out.println("Boolean  True or False");
+//		
+//		System.out.println("Ao atribuir passar valor de uma variável para outra, tomar cuidado, caso contrario de uma maior par auma menor, podem ser perdidas informações.");
+//		
+//		
+		
+		//Tipos numericos inteiros:
+		byte anosDeEmpresa = 23;
+		short numeroDeVoos = 542;
+		int id = 56789;
+		long pontosAcumulados =3234845223L; //Para o sistema entender que não se trata de um int precisa adicionar o L.
+		
+		
+		//Tipos numéricos reais
+		float salario = 11445.44F; //Da mesma forma precisa adicionar a letra para que ele entenda que é um float e não um Dooble.
+		double vendasAcumuladas = 2991797103.01;
+		
+		//Tipos Booleano
+		boolean estaDeFerias = true; //false
+		
+		//Tipos caractere
+		char status = 'A'; //ativo -  Apenas uma letra/número ou tabela unicode.
+
+		
+		System.out.println(anosDeEmpresa * 365 + "dias de empresa.");
+		
+		System.out.println(numeroDeVoos /2 + "viagens.");
+		
+		System.out.println(pontosAcumulados / vendasAcumuladas + "pontos por Real.");
+		
+		System.out.println(id + " : Ganha = " + salario);
+		
+		System.out.println("E ai está de férias ? "+ estaDeFerias);
+		
+		System.out.println("Status: " + status);
+
+	}
+}

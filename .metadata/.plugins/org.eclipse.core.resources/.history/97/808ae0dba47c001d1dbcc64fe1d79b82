@@ -1,0 +1,13 @@
+package fundamentos;
+
+public class PrimeiroPrograma {
+	
+	//CTRL + Space -- digitando o inicio do codigo desejado mais comando vai demostrar as possibilidades.
+	//syso --Atalho println.
+	//CTRL + Shif + F11 -- Rodar o programa no terminal.
+	
+	public static void main(String[] args) {
+		System.out.println("Olá mundo !");
+	}
+
+}

@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class Console29 {
+	public static void main(String[] args) {
+		System.out.print("bom");
+		System.out.print("dia !");
+	}
+}

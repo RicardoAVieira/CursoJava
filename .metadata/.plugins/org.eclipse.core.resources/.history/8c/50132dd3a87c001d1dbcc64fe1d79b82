@@ -1,0 +1,13 @@
+package fundamentos;
+
+public class temperatura {
+	public static void main(String[] args) {
+		//ºf -32) X 5/9 = ºC
+		
+		double f = 70;
+		final double FA= 32;
+		double c = (f-FA)* 5/9;
+		
+		System.out.println(f+"Graus Farenheit é iguala "+c+" Graus Centigrados.");
+	}
+}

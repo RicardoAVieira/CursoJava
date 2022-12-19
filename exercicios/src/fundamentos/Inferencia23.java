@@ -1,0 +1,24 @@
+package fundamentos;
+
+public class Inferencia23 {
+	public static void main(String[] args) {
+		
+//		O conceito de inferência, o java "identifica" qual é tipo da variavel.
+		
+		double a = 4.5;
+		System.out.println(a);
+		
+		var b =4.5;
+		System.out.println(b);
+		
+		var c = "Olá Mundo !";
+		System.out.println(c);
+		c = "Outro Texto";
+		System.out.println(c);
+		
+//		Uma variavel não pode ter seu tipo modificado. Var inferida precisa ser inicializada, caso não for não vai funcionar.
+		
+		
+	}
+}
+//Aula 24 é a proxima.
