@@ -2,7 +2,7 @@ package fundamentos;
 
 import javax.swing.JOptionPane;
 
-public class ConversaoStringNumero {
+public class ConversaoStringNumeroJOprionPane36 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

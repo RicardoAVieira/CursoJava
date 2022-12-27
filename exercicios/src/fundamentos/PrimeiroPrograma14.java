@@ -10,6 +10,9 @@ public class PrimeiroPrograma14 {
 	//CTRL + Shift + F para formatar codigo.
 	
 	
+	//Alt + SHIFT + A para selecionar várias linhas.
+	
+	
 	
 	/*
 	 * Comentario de multiplas linhas.
