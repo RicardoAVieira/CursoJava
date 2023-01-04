@@ -6,14 +6,15 @@ public class Data {
 	int ano;
 	
 	Data (){
-		dia = 18;
-		mes = 9;
-		ano = 1992;
+		/*
+		 * dia = 18; mes = 9; ano = 1992;
+		 */
+		this(18,9,1992); //Apenas em construtores.
 	}
-	Data(int ndia, int nmes, int nano){
-		ano = nano;
-		mes = nmes;
-		dia = ndia;
+	Data(int dia, int mes, int ano){
+		this.ano = ano;
+		this.mes = mes;
+		this.dia = dia;
 	}
 	
 	String obterDataFormatada ( ){
@@ -21,7 +22,8 @@ public class Data {
 		return df;
 	}
 	String dataFormatada() {
-		return String.format("%d/%d/%d",dia, mes, ano);
+		String formato = "%d/%d/%d";
+		return String.format(formato ,dia, mes, ano);
 	}
 	
 	void imprimirDataformata() {
