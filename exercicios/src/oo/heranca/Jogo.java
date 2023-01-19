@@ -5,15 +5,31 @@ public class Jogo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Jogador j1 = new Jogador();
-		j1.x = 10;
-		j1.y = 20;
+		Monstro monstro1 = new Monstro();
+		monstro1.x = 10;
+		monstro1.y = 10;
 
-		j1.andar(Direcao.NORTE);
-		j1.andar(Direcao.NORTE);
-		j1.andar(Direcao.NORTE);
-		j1.andar(Direcao.NORTE);
-		System.out.println(j1.y);
+		Heroi heroi1 = new Heroi(10,11);
+		
+
+		System.out.println("Mostro tem = " + monstro1.vida);
+		System.out.println("Heroi tem = " + heroi1.vida);
+		monstro1.atacar(heroi1);
+		heroi1.atacar(monstro1);
+		monstro1.atacar(heroi1);
+		heroi1.atacar(monstro1);
+		
+		
+		monstro1.atacar(heroi1);
+		heroi1.atacar(monstro1);
+
+		monstro1.andar(Direcao.NORTE);
+		
+
+		monstro1.atacar(heroi1);
+		heroi1.atacar(monstro1);
+		System.out.println("Mostro tem = " + monstro1.vida);
+		System.out.println("Heroi tem = " + heroi1.vida);
 	}
 
 }
