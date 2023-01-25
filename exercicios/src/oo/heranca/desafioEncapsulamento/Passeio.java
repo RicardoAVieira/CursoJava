@@ -1,4 +1,7 @@
-package oo.heranca.desafio;
+package oo.heranca.desafioEncapsulamento;
+
+import oo.heranca.desafio.Corolla;
+import oo.heranca.desafio.Ferrari;
 
 public class Passeio {
 
@@ -11,6 +14,15 @@ public class Passeio {
 		System.out.println(gli.velocidadeAtual());
 
 		f1.acelerar();
+		f1.acelerar();
+		System.out.println(f1);
+		f1.ligarTurbo();
+		f1.acelerar();
+		System.out.println(f1);
+		f1.desligarTurbo();
+		f1.acelerar();
+		System.out.println(f1);
+		
 		gli.acelerar();
 		gli.acelerar();
 

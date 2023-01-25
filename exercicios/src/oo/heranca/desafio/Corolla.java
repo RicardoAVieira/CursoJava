@@ -1,7 +1,7 @@
 package oo.heranca.desafio;
 
 public class Corolla extends Carro{
-	Corolla(int vmax){
+	public Corolla(int vmax){
 		super(vmax);
 	}
 }
